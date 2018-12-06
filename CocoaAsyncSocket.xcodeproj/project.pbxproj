@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F428F221B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F428F021B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.h */; };
+		02F428F321B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F121B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m */; };
+		02F428F421B7A65A0032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F121B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m */; };
+		02F428F521B7A65A0032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F121B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m */; };
+		02F428F821B7AB1D0032E1D8 /* GCDAsyncReadPacket.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F428F621B7AB1D0032E1D8 /* GCDAsyncReadPacket.h */; };
+		02F428F921B7AB1D0032E1D8 /* GCDAsyncReadPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F721B7AB1D0032E1D8 /* GCDAsyncReadPacket.m */; };
+		02F428FA21B7AF370032E1D8 /* GCDAsyncReadPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F721B7AB1D0032E1D8 /* GCDAsyncReadPacket.m */; };
+		02F428FB21B7AF370032E1D8 /* GCDAsyncReadPacket.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F428F721B7AB1D0032E1D8 /* GCDAsyncReadPacket.m */; };
 		6C55C7D31B7838B1006A7440 /* CocoaAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C55C7D11B7838B1006A7440 /* CocoaAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD990301B7789680011A685 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CD9902C1B7789680011A685 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6CD990311B7789680011A685 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CD9902D1B7789680011A685 /* GCDAsyncSocket.m */; };
@@ -25,6 +33,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02F428F021B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocketPreBuffer.h; path = Source/GCD/GCDAsyncSocketPreBuffer.h; sourceTree = SOURCE_ROOT; };
+		02F428F121B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocketPreBuffer.m; path = Source/GCD/GCDAsyncSocketPreBuffer.m; sourceTree = SOURCE_ROOT; };
+		02F428F621B7AB1D0032E1D8 /* GCDAsyncReadPacket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GCDAsyncReadPacket.h; path = Source/GCD/GCDAsyncReadPacket.h; sourceTree = SOURCE_ROOT; };
+		02F428F721B7AB1D0032E1D8 /* GCDAsyncReadPacket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncReadPacket.m; path = Source/GCD/GCDAsyncReadPacket.m; sourceTree = SOURCE_ROOT; };
 		6C55C7D11B7838B1006A7440 /* CocoaAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaAsyncSocket.h; path = Source/CocoaAsyncSocket.h; sourceTree = SOURCE_ROOT; };
 		6CD990101B77868C0011A685 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CD990151B77868C0011A685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Source/Info.plist; sourceTree = "<group>"; };
@@ -94,6 +106,10 @@
 			children = (
 				6CD9902C1B7789680011A685 /* GCDAsyncSocket.h */,
 				6CD9902D1B7789680011A685 /* GCDAsyncSocket.m */,
+				02F428F021B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.h */,
+				02F428F121B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m */,
+				02F428F621B7AB1D0032E1D8 /* GCDAsyncReadPacket.h */,
+				02F428F721B7AB1D0032E1D8 /* GCDAsyncReadPacket.m */,
 				6CD9902E1B7789680011A685 /* GCDAsyncUdpSocket.h */,
 				6CD9902F1B7789680011A685 /* GCDAsyncUdpSocket.m */,
 			);
@@ -109,6 +125,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CD990301B7789680011A685 /* GCDAsyncSocket.h in Headers */,
+				02F428F221B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.h in Headers */,
+				02F428F821B7AB1D0032E1D8 /* GCDAsyncReadPacket.h in Headers */,
 				6CD990321B7789680011A685 /* GCDAsyncUdpSocket.h in Headers */,
 				6C55C7D31B7838B1006A7440 /* CocoaAsyncSocket.h in Headers */,
 			);
@@ -264,6 +282,8 @@
 			files = (
 				6CD990331B7789680011A685 /* GCDAsyncUdpSocket.m in Sources */,
 				6CD990311B7789680011A685 /* GCDAsyncSocket.m in Sources */,
+				02F428F321B7A6570032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */,
+				02F428F921B7AB1D0032E1D8 /* GCDAsyncReadPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,8 @@
 			files = (
 				7D8B70D41BCFA23100D8E273 /* GCDAsyncUdpSocket.m in Sources */,
 				7D8B70D21BCFA23100D8E273 /* GCDAsyncSocket.m in Sources */,
+				02F428F521B7A65A0032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */,
+				02F428FB21B7AF370032E1D8 /* GCDAsyncReadPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +304,8 @@
 			files = (
 				9FC41F301B9D969100578BEB /* GCDAsyncUdpSocket.m in Sources */,
 				9FC41F2E1B9D968E00578BEB /* GCDAsyncSocket.m in Sources */,
+				02F428F421B7A65A0032E1D8 /* GCDAsyncSocketPreBuffer.m in Sources */,
+				02F428FA21B7AF370032E1D8 /* GCDAsyncReadPacket.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
